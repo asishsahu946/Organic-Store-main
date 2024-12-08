@@ -28,8 +28,7 @@ function DrawerMenu() {
   return (
     <>
       <Button ref={btnRef} backgroundColor={'transparent'} _hover={{backgroundColor:'transparent'}} onClick={onOpen}>
-        <HStack>
-          <IoMdMenu className="w-6 h-6" />
+        <HStack >
           <Text>Menu</Text>
         </HStack>
       </Button>
